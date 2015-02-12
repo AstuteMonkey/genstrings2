@@ -16,12 +16,14 @@ Usage:
 
 Options:
 
-* -a
-  Instead of overwriting every string, this will preserve existing strings in the strings file.
-* -o <path>
-  Output target. This could be "en.lproj", "Base.lproj", etc. By default, it is "Base.lproj".
-* -s <routine>
-  Search for the given routine instead of `NSLocalizedString`.
+	* -a
+	  Instead of overwriting every string, this will preserve
+	  existing strings in the strings file.
+	* -o <path>
+	  Output target. This could be "en.lproj", "Base.lproj",
+	  etc. By default, it is "Base.lproj".
+	* -s <routine>
+	  Search for the given routine instead of `NSLocalizedString`.
 
 Example:
 
