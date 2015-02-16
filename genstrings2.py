@@ -90,7 +90,7 @@ pathStrings = opt_target + "/Localizable.strings"
 
 # If a strings file already exists, parse it so we can use the old values for the new file
 oldStrings = {}
-if(opt_append):
+if(opt_append and os.path.isfile(pathStrings)):
   with open(pathStrings) as f:
     while True:
       c = f.read(1)
