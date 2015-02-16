@@ -169,7 +169,7 @@ for match in opt_files:
         matchCount = 0
 
   if(fileStringsWritten > 0):
-    stringsContent += "\n\n"
+    stringsContent += "\n"
 
 statsContent = "/**\n"
 statsContent += " * Total strings: " + str(stringsHit) + "\n"
